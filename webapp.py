@@ -13,19 +13,19 @@ import glob
 import pickle
 from pickle import dump, load
 from time import time
-from keras.preprocessing import sequence
-from keras.models import Sequential
-from keras.layers import LSTM, Embedding, TimeDistributed, Dense, RepeatVector, Activation, Flatten, Reshape, concatenate, Dropout, BatchNormalization
+from tensorflow.keras.preprocessing import sequence
+from tensorflow.keras.models import Sequential
+from tensorflow.keras.layers import LSTM, Embedding, TimeDistributed, Dense, RepeatVector, Activation, Flatten, Reshape, concatenate, Dropout, BatchNormalization
 from tensorflow.keras.optimizers import Adam, RMSprop, Adamax
 #from keras.layers.wrappers import Bidirectional
-from keras.layers import add
+from tensorflow.keras.layers import add
 from tensorflow.keras.applications import InceptionV3
-from keras.preprocessing import image
-from keras.models import Model
-from keras import Input, layers
-from keras import optimizers
+from tensorflow.keras.preprocessing import image
+from tensorflow.keras.models import Model
+from tensorflow.keras import Input, layers
+from tensorflow.keras import optimizers
 from tensorflow.keras.applications.inception_v3 import preprocess_input
-from keras.preprocessing.text import Tokenizer
+from tensorflow.keras.preprocessing.text import Tokenizer
 from tensorflow.keras.preprocessing.sequence import pad_sequences
 from tensorflow.keras.utils import to_categorical
 
